@@ -7,3 +7,7 @@ function podmiana(t){document.getElementById("animo").src=lista[t]}function przy
 function change1() {
     var  change1 = document.getElementById("info").innerHTML = "Odcinek 1";
 }
+
+function change11() {
+    var  change1 = document.getElementById("info").innerHTML = "";
+}
