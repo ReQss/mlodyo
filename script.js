@@ -72,8 +72,9 @@ function slider()
 function sliderchat()
 {
     var slider = document.getElementById('sliderchat').value;
-    var stream= document.getElementById('chat').style.width = slider+'px';
+    var chat= document.getElementById('chat').style.width = slider+'px';
     var anime=document.getElementById('film').style.width = `calc(100% - ${slider}px) `;
+    var stream=document.getElementById('stream').style.width = `calc(100% - ${slider}px) `;
 
    
 }
