@@ -47,7 +47,7 @@
   font-family: Roobert;
 }
 .anime {
-  height: 96%;
+  height: 100%;
   width: calc(100% - 350px);
   float: left;
   z-index: 1;
@@ -218,24 +218,36 @@ font-weight:bold;
   border-radius:0px 0px 0px 20px;
   
 }
-.slidecontainer {
-  width: 100%; /* Width of the outside container */
-}
-
 /* The slider itself */
 .slider {
   display:none;
-  margin-left:-100px;
+
   transform: rotate(-90deg);
-  -webkit-appearance: none;  /* Override default CSS styles */
+  -webkit-appearance: none; 
   appearance: none;
-  width: 100px; /* Full-width */
-  height: 10px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  width: 100px; 
+  height: 10px; 
+  background: #d3d3d3; 
+  outline: none; 
+  opacity: 0.7;
+  -webkit-transition: .2s; 
   transition: opacity .2s;
   border-style:solid;
+  float:left;
   
+}
+.sliderchat{
+ 
+ display:none;
+  transform: rotate(-90deg);
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 100px; 
+  height: 10px; 
+  background: #d3d3d3; 
+  outline: none; 
+  opacity: 0.7;
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+  border-style:solid;
 }
