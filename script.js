@@ -1,5 +1,5 @@
 var lista = [
-    
+    'https://www.youtube.com/embed/TR1Jymo2O4w'
   
   ];
 function podmiana(odcinek){
