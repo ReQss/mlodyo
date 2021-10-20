@@ -68,7 +68,7 @@ function slider()
     var slider = document.getElementById('myRange').value;
     var stream= document.getElementById('streamokno').style.width = slider+'px';
     var stream= document.getElementById('streamokno').style.height = slider/3.2+'%';
-}
+}/*
 function sliderchat()
 {
     var slider = document.getElementById('sliderchat').value;
